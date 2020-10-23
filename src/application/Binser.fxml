@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="btnes" prefHeight="600.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller2">
+   <children>
+      <TextArea fx:id="ta1" layoutX="23.0" layoutY="19.0" prefHeight="93.0" prefWidth="951.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="txt32" layoutX="1053.0" layoutY="356.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt33" layoutX="1099.0" layoutY="356.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt34" layoutX="1145.0" layoutY="356.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt35" layoutX="1191.0" layoutY="356.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt36" layoutX="1237.0" layoutY="356.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt30" layoutX="1237.0" layoutY="322.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt29" layoutX="1191.0" layoutY="322.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt28" layoutX="1145.0" layoutY="322.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt27" layoutX="1099.0" layoutY="322.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt26" layoutX="1053.0" layoutY="322.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt20" layoutX="1053.0" layoutY="288.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt21" layoutX="1099.0" layoutY="288.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt22" layoutX="1145.0" layoutY="288.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt23" layoutX="1191.0" layoutY="288.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt24" layoutX="1237.0" layoutY="288.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt18" layoutX="1237.0" layoutY="253.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt17" layoutX="1191.0" layoutY="253.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt16" layoutX="1145.0" layoutY="253.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt15" layoutX="1099.0" layoutY="253.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt14" layoutX="1053.0" layoutY="253.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt8" layoutX="1053.0" layoutY="219.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt9" layoutX="1099.0" layoutY="219.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt10" layoutX="1145.0" layoutY="219.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt11" layoutX="1191.0" layoutY="219.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt12" layoutX="1237.0" layoutY="219.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt6" layoutX="1237.0" layoutY="186.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt5" layoutX="1191.0" layoutY="186.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt4" layoutX="1145.0" layoutY="186.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt3" layoutX="1099.0" layoutY="186.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt2" layoutX="1053.0" layoutY="186.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt1" layoutX="1007.0" layoutY="186.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt7" layoutX="1007.0" layoutY="219.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt13" layoutX="1007.0" layoutY="253.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt19" layoutX="1007.0" layoutY="288.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt25" layoutX="1007.0" layoutY="322.0" prefHeight="25.0" prefWidth="46.0" />
+      <TextField fx:id="txt31" layoutX="1007.0" layoutY="356.0" prefHeight="25.0" prefWidth="46.0" />
+      <Button fx:id="btnes" layoutX="1004.0" layoutY="410.0" mnemonicParsing="false" onAction="#Entersort" prefHeight="46.0" prefWidth="107.0" text="Enter and Sort" textFill="#832121">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="ta2" layoutX="23.0" layoutY="152.0" prefHeight="134.0" prefWidth="427.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="ta3" layoutX="476.0" layoutY="152.0" prefHeight="134.0" prefWidth="501.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="lbl1" layoutX="23.0" layoutY="124.0" prefHeight="25.0" prefWidth="69.0" text="Status" textFill="#18a816">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" layoutX="476.0" layoutY="119.0" prefHeight="26.0" prefWidth="69.0" text="Result" textFill="#18a816">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl3" layoutX="1007.0" layoutY="81.0" prefHeight="36.0" prefWidth="159.0" text="Element to Search:" textFill="#4f7515">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt37" layoutX="1163.0" layoutY="87.0" prefHeight="25.0" prefWidth="55.0" />
+      <Button fx:id="btnne" layoutX="1122.0" layoutY="410.0" mnemonicParsing="false" onAction="#Next" prefHeight="46.0" prefWidth="69.0" text="Next" textFill="#832121">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="ta4" layoutX="214.0" layoutY="335.0" prefHeight="252.0" prefWidth="514.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextArea>
+      <Label fx:id="lbl4" layoutX="237.0" layoutY="292.0" prefHeight="36.0" prefWidth="153.0" text="Complete Process" textFill="#18a816">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnpl" layoutX="1203.0" layoutY="410.0" mnemonicParsing="false" onAction="#Play" prefHeight="46.0" prefWidth="69.0" text="Play" textFill="#832121">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnex" layoutX="1203.0" layoutY="532.0" mnemonicParsing="false" onAction="#Exit" prefHeight="36.0" prefWidth="69.0" text="Exit" textFill="#832121">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

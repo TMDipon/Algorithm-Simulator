@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller1">
+   <children>
+      <TextField fx:id="a1" layoutX="14.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextField fx:id="a2" layoutX="63.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextField fx:id="a3" layoutX="112.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextField fx:id="a4" layoutX="161.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextField fx:id="a5" layoutX="210.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextArea fx:id="Array" layoutX="10.0" layoutY="68.0" prefHeight="397.0" prefWidth="596.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="Seta" layoutX="14.0" layoutY="537.0" mnemonicParsing="false" onAction="#SetArray" prefHeight="35.0" prefWidth="90.0" text="Set Array" textFill="#bf0909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="net" layoutX="137.0" layoutY="537.0" mnemonicParsing="false" onAction="#NextStep" prefHeight="35.0" prefWidth="76.0" text="Next" textFill="#bf0909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="608.0" layoutY="22.0" prefHeight="35.0" prefWidth="76.0" text="Reason" textFill="#1b32a4">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="Reasontf" layoutX="608.0" layoutY="68.0" prefHeight="397.0" prefWidth="478.0">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="a6" layoutX="259.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextField fx:id="a7" layoutX="308.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextField fx:id="a8" layoutX="357.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextField fx:id="a9" layoutX="406.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <TextField fx:id="a10" layoutX="455.0" layoutY="487.0" prefHeight="25.0" prefWidth="49.0" />
+      <Button fx:id="net1" layoutX="259.0" layoutY="537.0" mnemonicParsing="false" onAction="#Play" prefHeight="35.0" prefWidth="52.0" text="Play" textFill="#bf0909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="10.0" layoutY="22.0" prefHeight="35.0" prefWidth="90.0" text="Status" textFill="#340fb9">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="net2" layoutX="319.0" layoutY="537.0" mnemonicParsing="false" onAction="#Pause" prefHeight="35.0" prefWidth="63.0" text="Pause" textFill="#bf0909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="net3" layoutX="927.0" layoutY="537.0" mnemonicParsing="false" onAction="#Exit" prefHeight="35.0" prefWidth="76.0" text="Exit" textFill="#bf0909">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

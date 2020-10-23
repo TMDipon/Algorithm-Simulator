@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label fx:id="mlbl1" layoutX="54.0" layoutY="47.0" prefHeight="76.0" prefWidth="399.0" text="Algorithm Simulator" textFill="#4a1818">
+         <font>
+            <Font name="System Bold" size="40.0" />
+         </font>
+      </Label>
+      <Circle fx:id="mc1" fill="#265f94" layoutX="63.0" layoutY="205.0" radius="9.0" stroke="#3d4385" strokeType="INSIDE" />
+      <Circle fx:id="mc2" fill="#265f94" layoutX="63.0" layoutY="292.0" radius="9.0" stroke="#3d4385" strokeType="INSIDE" />
+      <Button fx:id="mbtn1" layoutX="99.0" layoutY="193.0" mnemonicParsing="false" onAction="#InsertionSort" prefHeight="45.0" prefWidth="252.0" text="Insertion Sort(Textual)" textFill="#26486b">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="mbtn2" layoutX="99.0" layoutY="278.0" mnemonicParsing="false" onAction="#BinarySearch" prefHeight="45.0" prefWidth="243.0" text="Binary Search(Textual)" textFill="#26486b">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Circle fx:id="mc3" fill="#265f94" layoutX="63.0" layoutY="383.0" radius="9.0" stroke="#3d4385" strokeType="INSIDE" />
+      <Circle fx:id="mc4" fill="#265f94" layoutX="63.0" layoutY="459.0" radius="9.0" stroke="#3d4385" strokeType="INSIDE" />
+      <Circle fx:id="mc5" fill="#265f94" layoutX="63.0" layoutY="536.0" radius="9.0" stroke="#3d4385" strokeType="INSIDE" />
+      <Button fx:id="ex1" layoutX="1162.0" layoutY="581.0" mnemonicParsing="false" onAction="#Exit" prefHeight="34.0" prefWidth="78.0" text="Exit" textFill="#26486b">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Circle fx:id="mc6" fill="#265f94" layoutX="63.0" layoutY="613.0" radius="9.0" stroke="#3d4385" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
